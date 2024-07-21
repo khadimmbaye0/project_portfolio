@@ -257,11 +257,17 @@ body {
 }
 
 @media (max-width: 768px) {
+
     .about-details-container {
         position: relative;
         top : 0;
         margin-top: 0;
+        overflow: hidden;
         width: 90%;
+    }
+
+    .text-container{
+      width: 125%;
     }
 
     .about-containers {
